@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.com/jaymist/rails-tutorial-sampleapp.svg?branch=master)
+
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
