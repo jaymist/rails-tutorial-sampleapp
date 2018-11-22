@@ -1,0 +1,10 @@
+container:
+  image: ruby: 2.4.5
+
+lint_task:
+  bundle_cache:
+    folder: /usr/local/bundle
+    fingerprint_script: echo $RUBY_VERSION && cat Gemfile.lock
+    populate_script: bundle install
+  lint_script: bundle exec rubocop
+
