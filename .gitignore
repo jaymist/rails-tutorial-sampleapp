@@ -50,3 +50,5 @@ node_modules/
 # Ignore RubyMine's files
 .idea
 
+# Ignore Spring files.
+/spring/*.pid
